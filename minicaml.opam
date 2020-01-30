@@ -2,25 +2,11 @@ opam-version: "2.0"
 maintainer: "sudo-woodo3@protonmail.com"
 authors: ["Alessandro Cheli"]
 homepage: "https://github.com/0x0f0f0f/minicaml"
-bug-reports: "https://github.com/0x0f0f0f/minicaml/issues"
-dev-repo: "git+https://github.com/0x0f0f0f/minicaml.git"
 license: "MIT"
-synopsis: "A simple, didactical, purely functional programming language"
-description: "A simple, didactical, purely functional programming language written for the programming 2 course at the University of Pisa, extended with a simple parser made with Menhir and ocamllex"
-doc: "https://0x0f0f0f.github.io/minicaml"
+synopsis: "Project has been renamed to gobba. This virtual package can be safely removed"
+description: "Project has been renamed to gobba. This virtual package can be safely removed"
+version: transition
 
-build: [
-  ["dune" "build" "-p" name "-j" jobs]
-  [make "test" "-j" jobs] {with-test}
-]
 depends: [
-    "dune" {>= "2.0"}
-    "ocaml" {>= "4.05.0"}
-    "ANSITerminal"
-    "ocamline" {>= "1.0"}
-    "menhir"
-    "ppx_deriving"
-    "cmdliner"
-    "alcotest" {with-test & >= "0.8.5"}
-    "bisect_ppx" {with-test >= "1.4.1"}
+    "gobba"
 ]

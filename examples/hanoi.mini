@@ -1,8 +1,0 @@
-let hanoi = fun n a b c ->
-  if n != 0 then (
-    hanoi (n - 1) a c b;
-    IO:print_endline ("Move disk from pole " ++ (show a) ++ " to pole " ++ (show b));
-    hanoi (n - 1) c b a
-  ) else ();;
-
-impure $ hanoi 10 1 2 3;;

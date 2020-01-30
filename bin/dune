@@ -1,8 +1,0 @@
-(executable
-    (name main)
-    (libraries minicaml cmdliner)
-    (preprocess (pps ppx_deriving.show)))
-
-(install
-    (section bin)
-    (files (main.exe as minicaml)))
