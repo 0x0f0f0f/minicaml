@@ -1,3 +1,6 @@
+## transition 2020-01-30
+- Renamed project to gobba
+
 ## 0.4 2020-01-16
 - Multiline REPL
 - New dictionary syntax
