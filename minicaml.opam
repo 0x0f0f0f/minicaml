@@ -5,7 +5,7 @@ homepage: "https://github.com/0x0f0f0f/minicaml"
 license: "MIT"
 synopsis: "Project has been renamed to gobba. This virtual package can be safely removed"
 description: "Project has been renamed to gobba. This virtual package can be safely removed"
-version: transition
+version: "transition"
 
 depends: [
     "gobba"
